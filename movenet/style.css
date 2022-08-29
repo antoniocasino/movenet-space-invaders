@@ -1,0 +1,38 @@
+.grid {
+	width: 20rem !important;
+	height: 21rem;
+	border: solid lightblue .5rem;
+	display: flex;
+	flex-wrap: wrap;	
+}
+
+.grid div {
+	width: 1.33rem;
+	height: 1.33rem;
+}
+
+.invader {
+	background-image: url('invader.png');	
+	border-radius: 1.33rem;
+}
+
+.shooter {
+	background-image: url('nose.png');	
+	width: 1.33rem;
+	height: 1.33rem;
+}
+
+.laser {
+	background-color: orange;	
+	border-radius: 0.66rem;	
+	width: 0.66rem !important;
+	height: 0.66rem !important;
+	margin: 0.33rem;	
+}
+
+
+.boom {
+	background-image: url('boom.png');	
+	width: 1.33rem;
+	height: 1.33rem;
+}

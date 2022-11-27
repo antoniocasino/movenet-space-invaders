@@ -15,7 +15,8 @@
  * =============================================================================
  */
 import * as posedetection from '@tensorflow-models/pose-detection';
-import * as tf from '@tensorflow/tfjs-core';
+import * as tflite from "@tensorflow/tfjs-tflite";
+import * as tf from "@tensorflow/tfjs";
 import * as dat from 'dat.gui';
 import * as params from './params';
 import {Camera} from './camera';

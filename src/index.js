@@ -21,16 +21,9 @@ import * as mpPose from '@mediapipe/pose';
 import * as tfjsWasm from '@tensorflow/tfjs-backend-wasm';
 import {game} from "./space-invarders/app";
 
-import '@tensorflow/tfjs-backend-cpu';
-// Import @tensorflow/tfjs-core
-import * as tf from '@tensorflow/tfjs-core';
-// Import @tensorflow/tfjs-tflite.
-import * as tflite from '@tensorflow/tfjs-tflite';
-
-
-tflite.setWasmPath(
+tfjsWasm.setWasmPaths(
     `https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-backend-wasm@${
-      tflite.version_wasm}/dist/`);
+        tfjsWasm.version_wasm}/dist/`);
 
 import * as posedetection from '@tensorflow-models/pose-detection';
 

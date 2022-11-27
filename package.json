@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "webpack --watch",
-    "start": "webpack serve --port $PORT",
+    "start": "webpack serve --port 8080",
     "build": "webpack"
   },
   "author": "",
@@ -24,7 +24,7 @@
     "@tensorflow/tfjs-backend-webgl": "^4.1.0",
     "@tensorflow/tfjs-converter": "^4.1.0",
     "@tensorflow/tfjs-core": "^4.1.0",
-    "@tensorflow/tfjs-tflite": "^0.0.1-alpha.8",
+    "@tensorflow/tfjs-tflite": "^0.0.1-alpha.9",
     "dat.gui": "^0.7.9",
     "lodash": "^4.17.21",
     "scatter-gl": "0.0.13",

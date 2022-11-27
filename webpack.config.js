@@ -8,6 +8,7 @@ module.exports = {
    devtool: 'inline-source-map',
   devServer: {
     static: './movenet',
+    disableHostCheck: true
   },
   
    output: {

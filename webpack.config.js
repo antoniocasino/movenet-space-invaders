@@ -8,12 +8,11 @@ module.exports = {
    devtool: 'inline-source-map',
   devServer: {
     static: './movenet',
-    port: process.env.PORT
+    allowedHosts: 'all'
   },
   
-  output: {
-    filename: '[name].bundle.js',
-    path: path.resolve(__dirname, 'movenet')    
-  }   
-  
+   output: {
+     filename: '[name].bundle.js',
+     path: path.resolve(__dirname, 'movenet')    
+   }
 };
